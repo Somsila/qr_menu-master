@@ -8,6 +8,7 @@ const useCartState = useCartStore();
 
 const isCartEmpty = computed(() => cartItems.value.length === 0);
 
+
 // Initialize cart items from localStorage
 const cartItems = ref<CartItem[]>(JSON.parse(localStorage.getItem('cart') || '[]'));
 
