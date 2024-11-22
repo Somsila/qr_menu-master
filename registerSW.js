@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/qr_menu-master/sw.js', { scope: '/qr_menu-master/' })})}
