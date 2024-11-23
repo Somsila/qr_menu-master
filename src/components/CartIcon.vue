@@ -69,13 +69,16 @@ watch(visible, (newValue) => {
   cartCleared = false; // Reset the flag after opening dialog
 });
 
+//check carItems.value
+console.log(cartItems.value);
+
 </script>
 
 <template>
   <!-- Cart Icon Button -->
   <a @click="visible = true" class="fixed bottom-4 right-4 z-50 p-3 rounded-full">
     <!-- Cart Icon -->
-    <OverlayBadge severity="danger">
+    <OverlayBadge severity="danger" :value="cartItems.length">
       <i class="pi pi-cart-plus" style="font-size: 3rem" />
     </OverlayBadge>
   </a>

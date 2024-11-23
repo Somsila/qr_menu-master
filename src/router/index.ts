@@ -14,8 +14,8 @@ const router = createRouter({
       component: HomeView
     },
     {
-      // path: '/:store_id/table/:table_id',
-      path: '/menu',
+      path: '/:store_id/table/:table_id',
+      // path: '/menu',
       name: 'menu',
       component: MenuView
     },

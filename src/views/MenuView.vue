@@ -17,6 +17,7 @@ function changeBoard(board: string) {
 
 <template>
   <div>
+  <!-- header -->
     <div class="flex items-center gap-3 bg-blue-800 sticky top-0 p-3 ">
       <img src="../assets/Image/Icon.png" alt="" class="w-10 h-10 rounded-full">
       <h1 class="text-white font-bold text-3xl">Menu</h1>
@@ -33,6 +34,12 @@ function changeBoard(board: string) {
 
     </div>
 
+    <div class="w-full h-60  bg-blue-800 bg-[url('https://img.freepik.com/premium-photo/food-background-black-herbs-spices-utensil-top-view-with-space-text_1040174-349.jpg?semt=ais_hybrid')] bg-no-repeat bg-cover">
+    <div class="w-full h-full flex justify-center items-center">
+    <h1 class="text-white text-4xl font-bold">Start your <br>order now</h1>
+    </div>
+
+    </div>
 
 
     <!-- Conditional rendering for FoodMenu or DrinkMenu based on the selected board -->
