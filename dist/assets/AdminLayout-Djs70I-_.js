@@ -1,0 +1,1 @@
+import{_ as o}from"./AdminLayout.vue_vue_type_script_setup_true_lang-gKGK4TLW.js";import"./index-CpEf2dSb.js";import"./DrinkProduct.vue_vue_type_script_setup_true_lang-Do2jFzDy.js";export{o as default};
