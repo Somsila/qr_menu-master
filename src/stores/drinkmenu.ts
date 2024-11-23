@@ -1,6 +1,7 @@
 import { defineStore } from 'pinia';
 
 export const useDrinkMenu = defineStore('drinkmenu', {
+
   state: () => ({
     products: [
       {
@@ -41,7 +42,7 @@ export const useDrinkMenu = defineStore('drinkmenu', {
 
 
       },
-      
+
     ],
   }),
   getters: {
